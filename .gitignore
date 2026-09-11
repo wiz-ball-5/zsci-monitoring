@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+
+# Large raw scientific inputs are regenerated from primary sources.
+data/raw/
+*.part
+*.nc
+*.nc.gz
+*.gz
+
+# Local figures/logs are not needed by the web service.
+output/
+
+# Keep forensic backups local.
+data/processed/*.BROKEN_v03.csv
+data/processed/*.BROKEN_v03.json
+
+.DS_Store
+.vscode/
+.idea/
+*.zip

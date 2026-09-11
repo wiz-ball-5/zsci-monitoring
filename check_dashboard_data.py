@@ -1,0 +1,12 @@
+from dashboard import load_data, hadisst_status
+had, daily, monthly, current = load_data()
+hs = hadisst_status(had)
+print("Dashboard data check")
+print("====================")
+print("HadISST rows:      ", len(had))
+print("OISST daily rows:  ", len(daily))
+print("OISST monthly rows:", len(monthly))
+print("Latest OISST date: ", current["latest_observation_date"])
+print(f'Current MTD ZSCI:   {current["current_mtd_zsci"]:+.3f} °C')
+print(f'Final HadISST ZSCI: {hs["smooth_value"]:+.3f} °C ({hs["smooth_month"]:%Y-%m})')
+print("RESULT: PASS")

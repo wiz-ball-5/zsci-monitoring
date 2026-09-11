@@ -1,0 +1,12 @@
+{
+  "source": "NOAA/PSL OISST v2.1 high-resolution monthly mean",
+  "ncss_url": "https://psl.noaa.gov/thredds/ncss/grid/Datasets/noaa.oisst.v2.highres/sst.mon.mean.nc",
+  "baseline": "1981-2010 available months",
+  "east_box": "5S-5N, 205E-290E",
+  "west_box": "5S-5N, 120E-205E",
+  "spatial_weighting": "cos(latitude)",
+  "first_month": "1981-09",
+  "latest_month": "2026-08",
+  "rows": 540,
+  "component_closure_max_abs_degC": 5.773159728050814e-15
+}

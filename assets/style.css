@@ -1,0 +1,47 @@
+:root{
+  --bg:#f2f6f8;--card:#fff;--text:#15232d;--muted:#687884;--line:#dbe5ea;
+  --accent:#0e657d;--accent2:#0b4b5e;--soft:#eaf3f6;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+.hero{background:linear-gradient(135deg,#0a3545,#0d657c);color:white}
+.hero-inner,.main,footer{width:min(1180px,calc(100% - 40px));margin:auto}
+.hero-inner{padding:48px 0;display:grid;grid-template-columns:1.45fr 1fr;gap:44px;align-items:end}
+.eyebrow{font-size:.74rem;letter-spacing:.19em;font-weight:850;opacity:.7}
+.hero h1{font-size:clamp(2.4rem,5vw,4.5rem);line-height:.98;margin:12px 0 16px;letter-spacing:-.045em}
+.hero p{max-width:720px;line-height:1.65;color:rgba(255,255,255,.78)}
+.definition{padding:22px;border:1px solid rgba(255,255,255,.18);border-radius:16px;background:rgba(255,255,255,.08)}
+.definition-main{font-size:1.55rem;font-weight:800;margin:10px 0}
+.definition small{color:rgba(255,255,255,.72);line-height:1.55}
+.main{padding:32px 0 55px}.section{margin-bottom:26px}
+.section-head{display:flex;justify-content:space-between;gap:20px}
+.section-head h2,.numbered-head h2,.method h2{margin:0 0 8px}
+.section-head p,.numbered-head p,.method p{margin:0;color:var(--muted);line-height:1.6}
+.status{height:max-content;padding:8px 12px;border-radius:999px;font-size:.72rem;font-weight:800;letter-spacing:.08em;background:#e3f2e8;color:#28633c}
+.status.preliminary{background:#fff0c8;color:#795400}
+.metrics{display:grid;grid-template-columns:1.25fr 1fr 1fr .85fr;gap:14px;margin:22px 0 4px}
+.metric-card,.panel,.method{background:var(--card);border:1px solid var(--line);border-radius:17px;box-shadow:0 8px 26px rgba(20,32,43,.055)}
+.metric-card{padding:20px;min-height:140px;display:flex;flex-direction:column;justify-content:space-between}
+.metric-card.primary{background:linear-gradient(145deg,#0d566b,#11788f);color:white;border:0}
+.metric-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.075em;font-weight:780;color:var(--muted)}
+.primary .metric-label,.primary .metric-foot{color:rgba(255,255,255,.72)}
+.metric-value{font-size:2rem;font-weight:820;letter-spacing:-.04em;margin:12px 0}
+.metric-foot{font-size:.82rem;color:var(--muted)}
+.panel{padding:18px 18px 8px}
+.numbered-head{display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:start;padding:8px 8px 12px}
+.section-number{font-size:.72rem;letter-spacing:.13em;font-weight:850;color:#0c8da9;padding-top:6px}
+.controls{display:flex;gap:18px;align-items:end;padding:8px 8px 4px;flex-wrap:wrap}
+.control-block{min-width:310px}.control-block.wide{flex:1}
+.control-block label{display:block;font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;font-weight:800;color:var(--muted);margin-bottom:7px}
+.radio-row label{margin-right:14px;text-transform:none;letter-spacing:0;font-size:.86rem;color:var(--text);font-weight:600}
+.year-dropdown{min-width:320px}
+.component-cards{display:grid;grid-template-columns:1fr 1fr 1.15fr;gap:12px;padding:6px 8px 12px}
+.figure-note{border-top:1px solid var(--line);margin:0 -18px;padding:12px 18px 11px;color:var(--muted);font-size:.82rem;line-height:1.55}
+.figure-note.important{background:#fbfcfd;color:#536673}
+.method{padding:28px;display:grid;grid-template-columns:1.35fr .8fr;gap:32px}
+.method p{margin-bottom:12px}.spec{background:#f8fafb;border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;font-size:.84rem}
+.spec>b{grid-column:1/-1;font-size:.72rem;letter-spacing:.1em;color:var(--muted)}
+footer{padding:0 0 28px;display:flex;justify-content:space-between;color:var(--muted);font-size:.78rem}
+@media(max-width:900px){.hero-inner,.method{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}.component-cards{grid-template-columns:1fr}.control-block{min-width:100%}}
+@media(max-width:600px){.hero-inner,.main,footer{width:calc(100% - 24px)}.metrics{grid-template-columns:1fr}.section-head,footer{flex-direction:column}.numbered-head{grid-template-columns:36px 1fr}}

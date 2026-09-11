@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zsci-monitoring"
+version = "1.0.0"
+description = "Zonal SST Contrast Index monitoring dashboard"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24,<3",
+    "pandas>=2.0,<4",
+    "xarray>=2024.1",
+    "netCDF4>=1.6",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "requests>=2.31",
+    "dash>=3.0,<4",
+    "plotly>=6.0,<7",
+    "gunicorn>=22,<24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"

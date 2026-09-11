@@ -1,0 +1,24 @@
+{
+  "source": "Met Office HadISST1",
+  "url": "https://www.metoffice.gov.uk/hadobs/hadisst/data/HadISST_sst.nc.gz",
+  "downloaded_utc": "2026-09-10T07:57:37.909278+00:00",
+  "download_headers": {
+    "etag": "\"e7df8f2-65a9beba2a700\"",
+    "last_modified": "Thu, 03 Sep 2026 22:46:20 GMT",
+    "content_length": "243136754"
+  },
+  "compressed_sha256": "d85bbb4401c4e352b56af2334f836d6d866fae4ace8b3e41866f507d55a45fce",
+  "netcdf_sha256": "edd218d757ede84a9e363d45aa2814e635328c683cf990e1b5cce1e3bc59f4ae",
+  "first_time": "1870-01-16T11:59:59.505615234",
+  "latest_time": "2026-07-16T12:00:00.000000000",
+  "variables": [
+    "time_bnds",
+    "sst"
+  ],
+  "dimensions": {
+    "time": 1879,
+    "nv": 2,
+    "latitude": 180,
+    "longitude": 360
+  }
+}
