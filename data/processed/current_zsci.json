@@ -5,16 +5,16 @@
   "daily_definition": "daily OISST east-minus-west SST contrast minus NOAA/PSL 1981-2010 daily climatological east-minus-west contrast",
   "baseline": "1981-2010",
   "latest_observation_date": "2026-09-09",
-  "latest_daily_zsci": 3.2586551344710557,
+  "latest_daily_zsci": 3.258693281443712,
   "latest_daily_oisst_status": "preliminary",
-  "latest_raw_contrast": -0.7587947845458984,
+  "latest_raw_contrast": -0.7587566375732422,
   "latest_climatological_contrast": -4.017449919016954,
-  "latest_native_anom_contrast_1971_2000": 3.0812920928001404,
+  "latest_native_anom_contrast_1971_2000": 3.0813194513320923,
   "current_month": "2026-09",
-  "current_mtd_zsci": 3.0876297596690594,
+  "current_mtd_zsci": 3.087667482786464,
   "mtd_days_available": 9,
   "mtd_days_in_month": 30,
   "mtd_coverage_fraction": 0.3,
   "mtd_contains_preliminary": true,
-  "generated_utc": "2026-09-11T00:47:04.253796+00:00"
+  "generated_utc": "2026-09-11T10:27:26.968143+00:00"
 }
