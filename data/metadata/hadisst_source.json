@@ -1,22 +1,22 @@
 {
   "source": "Met Office HadISST1",
   "url": "https://www.metoffice.gov.uk/hadobs/hadisst/data/HadISST_sst.nc.gz",
-  "downloaded_utc": "2026-09-12T21:37:54.779145+00:00",
+  "downloaded_utc": "2026-11-13T00:41:00.710519+00:00",
   "download_headers": {
-    "etag": "\"e7df8f2-65a9beba2a700\"",
-    "last_modified": "Thu, 03 Sep 2026 22:46:20 GMT",
-    "content_length": "243136754"
+    "etag": "\"e822ba0-65f46d3524e80\"",
+    "last_modified": "Mon, 02 Nov 2026 08:20:58 GMT",
+    "content_length": "243411872"
   },
-  "compressed_sha256": "d85bbb4401c4e352b56af2334f836d6d866fae4ace8b3e41866f507d55a45fce",
-  "netcdf_sha256": "edd218d757ede84a9e363d45aa2814e635328c683cf990e1b5cce1e3bc59f4ae",
+  "compressed_sha256": "eb0a402520ec4a9f0089a0c5471d7a04e4fc83dbdcb5e2d624de9fcd60670d45",
+  "netcdf_sha256": "c1d70311fc9a680a0debbe12a0b4ce303b0a43eac7be239287dd15544a645635",
   "first_time": "1870-01-16T11:59:59.505615234",
-  "latest_time": "2026-07-16T12:00:00.000000000",
+  "latest_time": "2026-09-16T00:00:00.000000000",
   "variables": [
     "time_bnds",
     "sst"
   ],
   "dimensions": {
-    "time": 1879,
+    "time": 1881,
     "nv": 2,
     "latitude": 180,
     "longitude": 360
