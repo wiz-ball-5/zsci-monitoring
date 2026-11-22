@@ -11,10 +11,10 @@
   "latest_climatological_contrast": -4.106110944398516,
   "latest_native_anom_contrast_1971_2000": 3.345240592956543,
   "current_month": "2026-11",
-  "current_mtd_zsci": 3.437679081837917,
+  "current_mtd_zsci": 3.44596481622648,
   "mtd_days_available": 18,
   "mtd_days_in_month": 30,
   "mtd_coverage_fraction": 0.6,
   "mtd_contains_preliminary": true,
-  "generated_utc": "2026-11-21T23:16:11.593419+00:00"
+  "generated_utc": "2026-11-22T23:37:02.956567+00:00"
 }
